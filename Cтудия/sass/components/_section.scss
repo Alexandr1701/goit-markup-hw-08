@@ -1,0 +1,31 @@
+.section {
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+  @media screen and (min-width: $desktop) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+
+  &__title {
+    color: $title-text-color;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .section__title {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .section__title {
+    margin-bottom: 30px;
+  }
+}
